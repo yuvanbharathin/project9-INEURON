@@ -1,0 +1,155 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+*{
+    font-family: Montserrat;
+}
+body{
+    background-image: url(./images/retro-living-room-interior-design.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+}
+/* Header */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+}
+.logo{
+    margin: 0;
+    font-size: 2.5vw;
+}
+.list{
+    list-style: none;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid #ffffff;
+}
+.list-items{
+    font-weight: 700;
+    font-size: 1.4vw;
+    margin-left: 0;
+    /* padding-bottom: 5vh; */
+    margin-bottom: -50px;
+}
+.call{
+    /* background-color: #6f6f6f; */
+    width: 20vw;
+    height: 20vh;
+    text-align: left;
+    position: relative;
+    bottom: 10px;
+}
+.contact{
+    position: relative;
+    left: 25px;
+}
+.svg1{
+        width: 30px;
+        position: relative;
+        right: 10px;
+        top: 20px;
+}
+/* hero */
+.hero{
+    margin-left: 80px;
+    margin-top: 180px;
+    width: 50%;
+}
+.hero-head{
+    font-size: 4vw;
+}
+.hero-btn{
+    font-size: 2vw;
+    font-family: Montserrat;
+    color: #ffffff;
+    background-color: transparent;
+    font-weight: 600;
+    border: 2px solid #ffffff;
+    padding: 12px 25px;
+    border-radius: 50px;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+/* Cards */
+.card1{
+    position: absolute;
+    top: 200px;
+    right: 120px;
+}
+.card2{
+    position: absolute;
+    top: 450px;
+    left: 650px;
+}
+.card{
+    width: 200px;
+    height: 130px;
+    background-color: rgba(200, 200, 200, 0.3);
+    padding: 8px 20px;
+}
+.card1-img{
+    margin: -20px auto;
+    position: relative;
+    left: 30px;
+}
+.card2 > img{
+    margin: -20px auto;
+    position: relative;
+    right: 100px;
+    bottom: 10px;
+}
+.card-text{
+    margin-top: -20px;
+    font-size: 1vw;
+    font-weight: 600;
+}
+button, li, .logo, .card{
+    cursor: pointer;
+}
+.line1{
+    background-color: rgba(200, 200, 200, 0.5);
+    width: 80px;
+    height: 2px;
+    position: absolute;
+    right: 397px;
+    bottom: 150px;
+}
+.dot1{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    bottom: 143px;
+    right: 382px;
+}
+.line2{
+    background-color: rgba(200, 200, 200, 0.5);
+    width: 2px;
+    height: 80px;
+    position: absolute;
+    right: 225px;
+    bottom: 258px;
+}
+.dot2{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    bottom: 250px;
+    right: 217px;
+}
+/* Bottom */
+footer{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+footer > a{
+    color: #050505;
+    font-size: 10px;
+}
